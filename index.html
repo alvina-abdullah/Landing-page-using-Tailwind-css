@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rickshaw Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-blue-700 text-white p-4">
+    <div class="container mx-auto flex flex-wrap justify-between items-center">
+      <h1 class="text-2xl font-bold">
+        Rickshaw Hub
+      </h1>
+      <nav>
+        <ul class="flex flex-wrap space-x-4 text-sm sm:text-base">
+          <li><a class="hover:underline" href="#">Home</a></li>
+          <li><a class="hover:underline" href="#">About</a></li>
+          <li><a class="hover:underline" href="#">Products</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="bg-white py-8 sm:py-12 text-center">
+      <div class="container mx-auto">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4">Welcome to Rickshaw Hub</h2>
+        <p class="text-base sm:text-lg mb-6">
+          Your one-stop shop for the best rickshaws in town.
+        </p>
+        <a class="bg-blue-700 text-white py-2 px-4 rounded hover:bg-green-700" href="#">
+          Shop Now
+        </a>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-8 sm:py-12">
+      <div class="container mx-auto">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Our Products</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Product 1 -->
+          <div class="bg-white p-4 rounded shadow">
+            <img src="1.jpg" alt="Rickshaw model 1 with a vibrant yellow and green color scheme" class="w-full h-48 object-cover mb-4">
+            <h3 class="text-lg font-bold mb-2">Rickshaw Model 1</h3>
+            <p class="text-gray-700 mb-4">A reliable and affordable rickshaw perfect for city commuting.</p>
+            <a class="bg-blue-700 text-white py-2 px-4 rounded hover:bg-green-700" href="#">
+              Learn More
+            </a>
+          </div>
+          <!-- Product 2 -->
+          <div class="bg-white p-4 rounded shadow">
+            <img src="2.jpg" alt="Rickshaw model 2 with a sleek red and black design" class="w-full h-48 object-cover mb-4">
+            <h3 class="text-lg font-bold mb-2">Rickshaw Model 2</h3>
+            <p class="text-gray-700 mb-4">A stylish rickshaw with enhanced comfort and performance.</p>
+            <a class="bg-blue-700 text-white py-2 px-4 rounded hover:bg-green-700" href="#">
+              Learn More
+            </a>
+          </div>
+          <!-- Product 3 -->
+          <div class="bg-white p-4 rounded shadow">
+            <img src="3.jpg"alt="Rickshaw model 3 with a modern blue and white look" class="w-full h-48 object-cover mb-4">
+            <h3 class="text-lg font-bold mb-2">Rickshaw Model 3</h3>
+            <p class="text-gray-700 mb-4">A modern rickshaw designed for maximum efficiency and style.</p>
+            <a class="bg-blue-700 text-white py-2 px-4 rounded hover:bg-green-700" href="#">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="bg-white py-8 sm:py-12">
+      <div class="container mx-auto text-center hover:bg-gray-200">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-4">Why Choose Us?</h2>
+        <p class="text-base sm:text-lg mb-6">We offer the best rickshaws with top-notch customer service and unbeatable prices.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Feature 1 -->
+          <div class="p-4">
+            <i class="fas fa-cogs text-4xl text-blue-700 mb-4"></i>
+            <h3 class="text-lg font-bold mb-2">High Quality</h3>
+            <p class="text-gray-700">Our rickshaws are built with the highest quality materials and craftsmanship.</p>
+          </div>
+          <!-- Feature 2 -->
+          <div class="p-4">
+            <i class="fas fa-dollar-sign text-4xl text-blue-700 mb-4"></i>
+            <h3 class="text-lg font-bold mb-2">Affordable Prices</h3>
+            <p class="text-gray-700">We offer competitive pricing without compromising on quality.</p>
+          </div>
+          <!-- Feature 3 -->
+          <div class="p-4">
+            <i class="fas fa-headset text-4xl text-blue-700 mb-4"></i>
+            <h3 class="text-lg font-bold mb-2">Excellent Support</h3>
+            <p class="text-gray-700">Our customer support team is here to help you with any questions or concerns.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>© 2023 Rickshaw Hub. All rights reserved.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
